@@ -28,8 +28,6 @@ def divisor_reduce(map_result):
 mapx = divisor_map(data)
 print(divisor_reduce(mapx))
 
-#1
-#2
 
 
 
