@@ -2,17 +2,19 @@ __author__ = 'igor'
 import collections
 import fractions
 
-#presets:
+# presets:
 
-#q1
+# question1-set:
 #links = collections.OrderedDict([('a', ['b', 'c']), ('b', ['c']), ('c', ['c'])])
 #z = 0.7
 #C = 3
-#q2
+
+# question2-set:
 #links = collections.OrderedDict([('a', ['b', 'c']), ('b', ['c']), ('c', ['a'])])
 #z = 0.85
 #C = 1
-#q3
+
+# question3-set:
 links = collections.OrderedDict([('a', ['b', 'c']), ('b', ['c']), ('c', ['a'])])
 z = 1
 C = 3
@@ -34,7 +36,7 @@ for k, v in links.items():
 
 V = [fractions.Fraction(C, N) for n in range(0, N)]
 result = V
-for k in range(0, 4):
+for k in range(0, 100):
     tmpResult = list(result)
     for i in range(0, N):
         mult = 0
